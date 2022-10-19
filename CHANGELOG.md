@@ -1,3 +1,10 @@
+## [0.1.5](https://github.com/IBM/keyprotect-nodejs-client/compare/v0.1.4...v0.1.5) (2022-10-19)
+
+
+### Bug Fixes
+
+* enable semantic-release debug logging ([b91b535](https://github.com/IBM/keyprotect-nodejs-client/commit/b91b535658ff9970436021997fbf797f54df9558))
+
 ## [0.1.4](https://github.com/IBM/keyprotect-nodejs-client/compare/v0.1.3...v0.1.4) (2022-10-19)
 
 
