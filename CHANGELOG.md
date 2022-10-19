@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/IBM/keyprotect-nodejs-client/compare/v0.1.3...v0.1.4) (2022-10-19)
+
+
+### Bug Fixes
+
+* update package.json to allow publishing ([#30](https://github.com/IBM/keyprotect-nodejs-client/issues/30)) ([86e839e](https://github.com/IBM/keyprotect-nodejs-client/commit/86e839e5be5e30cd88d035753e98321f9fdd3c8e))
+
 ## [0.1.3](https://github.com/IBM/keyprotect-nodejs-client/compare/v0.1.2...v0.1.3) (2022-10-18)
 
 
