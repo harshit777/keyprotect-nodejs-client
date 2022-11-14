@@ -38,7 +38,7 @@
     "node": ">=12.0.0"
   },
   "dependencies": {
-    "@ibm-cloud/platform-services": "^0.20.3",
+    "@ibm-cloud/platform-services": "^0.27.4",
     "@types/node": "^12.0.8",
     "extend": "^3.0.2",
     "ibm-cloud-sdk-core": "^3.2.0"
