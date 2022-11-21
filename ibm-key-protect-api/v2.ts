@@ -19,7 +19,7 @@
  */
 
 
-import * as extend from 'extend';
+import extend = require('extend');
 import { IncomingHttpHeaders, OutgoingHttpHeaders } from 'http';
 import { Authenticator, BaseService, getAuthenticatorFromEnvironment, getMissingParams, UserOptions } from 'ibm-cloud-sdk-core';
 import { getSdkHeaders } from '../lib/common';
@@ -80,8 +80,13 @@ class IbmKeyProtectApiV2 extends BaseService {
    */
   constructor(options: UserOptions) {
     options = options || {};
-
+    options.headers = {
+      'Ibm-Cloud-Req-Ctx': 'custom_value',
+    }
     super(options);
+    // if (options.headers) {
+    //   this.setDefaultHeaders(options.headers)
+    // }
     if (options.serviceUrl) {
       this.setServiceUrl(options.serviceUrl);
     }
